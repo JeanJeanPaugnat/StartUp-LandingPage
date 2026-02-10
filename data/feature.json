@@ -4,19 +4,19 @@
 
         "cards":[
             {    
-                "svgIcon": "../../assets/Feature/fa-briefcase.svg",
+                "svgIcon": "/StartUp-LandingPage/assets/Feature/fa-briefcase.svg",
                 "titleCard": "Many Useful Components",
                 "textCard": "Startup Framework contains components and complex blocks which can easily be integrated into almost any design. "
             },
 
             {    
-                "svgIcon": "../../assets/Feature/fa-compress.svg",
+                "svgIcon": "/StartUp-LandingPage/assets/Feature/fa-compress.svg",
                 "titleCard": "Responsive Layout",
                 "textCard": "We haven't forgotten about responsive layout. With Startup Framework, you can create a website with full mobile support. "
             },
 
             {    
-                "svgIcon": "../../assets/Feature/fa-desktop.svg",
+                "svgIcon": "/StartUp-LandingPage/assets/Feature/fa-desktop.svg",
                 "titleCard": "Retina Ready",
                 "textCard": "Startup Framework works on devices supporting Retina Display. Feel the clarity in each pixel. "
             }
