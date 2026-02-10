@@ -1,0 +1,12 @@
+@import './resetAll.css';
+@import './variables.css';
+
+
+@import '../component/Content/style.css';
+@import '../component/Form/style.css';
+@import '../component/Hero 2/style.css';
+@import '../component/Showcase/style.css';
+@import '../component/Team/style.css';
+@import '../component/Footer/style.css';
+@import '../component/Navigation/style.css';
+@import '../component/Feature/style.css';

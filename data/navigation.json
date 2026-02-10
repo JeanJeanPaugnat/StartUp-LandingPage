@@ -1,0 +1,23 @@
+[
+    {   
+
+        "cards":[
+            {    
+                "nameSection": "Home"
+            },
+
+            {    
+                "nameSection": "Features"
+            },
+
+            {    
+                "nameSection": "Pricing"
+            },
+
+            {    
+                "nameSection": "Blog"
+            }
+            
+        ]
+    }
+]

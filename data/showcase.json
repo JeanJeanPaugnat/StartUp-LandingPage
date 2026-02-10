@@ -1,0 +1,26 @@
+[
+    {   
+        "cards":[
+            {    
+                "titlecard": "Quality you can trust",
+                "descriptioncard": "All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.",
+                "boutoncard": "Learn More",
+                "image": "../../assets/Showcase/image1.jpg"
+            },
+
+            {    
+                "titlecard": "Fast prototyping",
+                "descriptioncard": "All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.",
+                "boutoncard": "Learn More",
+                "image": "../../assets/Showcase/image2.jpg"
+            },
+
+            {    
+                "titlecard": "Bootstrap based",
+                "descriptioncard": "All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.",
+                "boutoncard": "Learn More",
+                "image": "../../assets/Showcase/image3.jpg"
+            }
+        ]
+    }
+]

@@ -1,0 +1,22 @@
+<!-- Le template d'un composant Hero 
+
+  Ce template est un fragment d'HTML qui sera utilisé pour afficher le composant Hero.
+  Ce n'est pas un document HTML valide en soit. Il ne contient pas de balise <html>, <head>, <body>, etc...
+  C'est un fragment d'HTML qui devra être formaté (remplacement des tags {{...}}) avant d'être inséré dans un document HTML.
+
+  Procéder ainsi évite de placer le template dans un élément <template> du document HTML.
+  Bien que la technique soit 200% valide, elle peu devenir difficile à gérer si on a beaucoup
+  de composants et donc beaucoup de templates à gérer.
+-->
+    <!-- Block hero -->
+    <div class="form__Container">
+      <div class="form__TextContainer">
+          <h1 class="form__FormTitle">{{title}}</h1>
+          <h2 class="form__FormText">{{text}}</h2>
+      </div>
+      <form class="form__Form">
+          <input type="email" id="email" placeholder="{{placeholder}}" name="email" required>
+          <button class="form__btn" type="submit">{{bouton}}</button>
+      </form>
+  </div>
+    <!-- End block hero -->

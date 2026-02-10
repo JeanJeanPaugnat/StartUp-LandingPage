@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500;9..40,700&display=swap");
+
+:root {
+  --clr-dark: hsl(253, 69%, 8%);
+  --clr-white: hsl(0, 0%, 100%);
+
+  --ff-sans: "DM sans", sans-serif;
+}
+
+:root{
+    /*couleurs*/
+    --color--dark-violet: #2F1893;
+    --color--ver-dark-violet: #1E0E62;
+    --color--pink: #E93A7D;
+    --color--white: #ffffff;
+    --color--white-50percent: #ffffff41;
+    --color--grey: #1514395d;
+    --color--soft-grey: #e2e2e4;
+    --color--green-blueish: #25DAC5;
+    --color--dark-green-blueish: #1b9486;
+
+    /*font*/
+    --font: 'DM Sans';
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+
+}
+
+.btnCard{
+    border-radius: 6.25rem;
+    border: .125rem solid var(--color--soft-grey);
+    padding: 0.75rem 1.8rem;
+    color: var(--color--ver-dark-violet);
+    font-family: var(--font);
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.625rem;
+}
+
+.btnCard:hover{
+    background-color: var(--color--ver-dark-violet);
+    color: var(--color--white);
+    transition: ease-in-out 0.3s;
+
+}
+
+.form__btn {
+    font-family: var(--font);
+    text-align: center;
+    padding: 0.75rem 1.63rem;
+    background-color: var(--color--green-blueish);
+    border-radius: 6.25rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--color--white);
+    
+}
+
+.form__btn:hover{
+    background-color: var(--color--dark-green-blueish);
+    transition: ease-in-out 0.3s;
+}

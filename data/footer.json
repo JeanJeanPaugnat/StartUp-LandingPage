@@ -1,0 +1,28 @@
+[
+    {   
+        "credit": "© 2016 Designmodo. All rights reserved.",
+
+        "cards":[
+            {    
+                "nameSection": "Portfolio"
+            },
+
+            {    
+                "nameSection": "How it Works"
+            },
+
+            {    
+                "nameSection": "Pricing"
+            },
+
+            {    
+                "nameSection": "About"
+            },
+
+            {    
+                "nameSection": "Contacts"
+            }
+            
+        ]
+    }
+]

@@ -1,0 +1,110 @@
+.team__container{
+    background-image: url(asset/background.png);
+    background-color: var(--color--ver-dark-violet);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6.25rem 0;
+    font-family: var(--font);
+}
+
+.team__textContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 43.625rem;
+    margin-bottom: 3.8rem;
+}
+
+.team__title{
+    color: var(--color--white);
+    font-size: 2.625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.25rem;
+    letter-spacing: -0.025rem;
+    margin-bottom: 1.2rem;
+}
+
+.team__text{
+    color: var(--color--white);
+    text-align: center;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+    opacity: 0.7;
+    letter-spacing: 0.04rem;
+}
+
+
+.team__profileContent{
+    max-width: fit-content;
+    background-color: var(--color--white);
+    border-radius: 0.625rem;
+    margin-bottom: 4.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.team__profil{
+    max-width: 26rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 7rem 4rem 7rem;
+    border-right: solid 2px var(--color--soft-grey);
+}
+
+.team__profil:last-child{
+    border-right: none;
+}
+
+.team__profilPicture{
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    overflow: hidden;
+
+    img{
+        
+        scale: 0.65;
+    }
+    
+}
+
+.btnTeam{
+    color: var(--color--white);
+  
+  }
+
+.team__profilName{
+    margin-top: 1.9rem;
+    margin-bottom: 1rem;
+    color: var(--color--ver-dark-violet);
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2rem;
+}
+
+.team__profilMedia{
+
+    svg{
+        width: 7.25631rem;
+        height: 1.17856rem;
+    }
+    
+}
+

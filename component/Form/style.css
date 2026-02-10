@@ -1,0 +1,83 @@
+
+.form__Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6.25rem 0;
+    background-color: var(--color--dark-violet);
+    font-family: var(--font);
+    gap: 3.0625rem;
+}
+
+.form__TextContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 40.5rem;
+}
+
+.form__FormTitle {
+    font-size: .875rem;
+    font-weight: 700;
+    line-height: 1.625rem;
+    letter-spacing: .125rem;
+    text-transform: uppercase;
+    color: var(--color--white);
+}
+
+.form__FormText {
+    font-size: 2.625rem;
+    font-weight: 700;
+    line-height: 3.25rem;
+    letter-spacing: -0.025rem;
+    text-align: center;
+    word-wrap: break-word;
+    color: var(--color--white);
+}
+
+.form__Form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: .625rem;
+    width: 40.5rem;
+}
+
+input {
+    width: 60%;
+    border-radius: 6.25rem;
+    border: .150rem solid var(--color--white);
+    opacity: 0.2;
+    padding: 1rem 0 1rem 1.5rem;
+    color: var(--color--white);
+    font-weight: 500;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+input[type="email"]::placeholder {
+    opacity: 1;
+    font-family: var(--font);
+    color: var(--color--white);
+    font-size: 1.25rem;
+    font-weight: 500;
+
+}
+
+.form__FormBtn {
+    font-family: var(--font);
+    text-align: center;
+    padding: 0.75rem 1.63rem;
+    background-color: var(--color--green-blueish);
+    border-radius: 6.25rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--color--white);
+}
+
+.form__FormBtn:hover {
+    background-color: var(--color--dark-green-blueish);
+    transition: ease-in-out 0.3s;
+}
+

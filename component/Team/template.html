@@ -1,0 +1,27 @@
+<!-- Le template d'un composant Hero 
+
+  Ce template est un fragment d'HTML qui sera utilisé pour afficher le composant Hero.
+  Ce n'est pas un document HTML valide en soit. Il ne contient pas de balise <html>, <head>, <body>, etc...
+  C'est un fragment d'HTML qui devra être formaté (remplacement des tags {{...}}) avant d'être inséré dans un document HTML.
+
+  Procéder ainsi évite de placer le template dans un élément <template> du document HTML.
+  Bien que la technique soit 200% valide, elle peu devenir difficile à gérer si on a beaucoup
+  de composants et donc beaucoup de templates à gérer.
+-->
+<section class="team__container" style="background-image: url('{{background}}')">
+  <div class="team__textContent">
+      <h1 class="team__title">
+          {{title}}
+      </h1>
+      <p class="team__text">
+        {{text}}
+      </p>
+  </div>
+  <ul class="team__profileContent">
+    {{template__card}}
+  </ul>
+  <button class="btnCard btnTeam">
+    {{bouton}}
+  </button>
+</section>
+    <!-- End block hero -->

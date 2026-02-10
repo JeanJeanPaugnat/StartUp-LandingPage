@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exemple d'utilisation des modules pour coder un composant</title>
+    <link rel="stylesheet" href="./css/base.css" />
+  </head>
+  <body>
+
+    <section id="sec1">
+
+    </section>
+
+    <section id="sec2">
+
+    </section>
+
+    <section id="sec3">
+
+    </section>
+
+    
+    <script type="module">
+        
+        import { Content } from "./component/Content/script.js";
+        import { Form } from "./component/Form/script.js";
+        import { Hero2 } from "./component/Hero 2/script.js";
+        import { Showcase } from "./component/Showcase/script.js";
+        import { Team } from "./component/Team/script.js";
+        import { Footer } from "./component/Footer/script.js";
+        import { Navigation } from "./component/Navigation/script.js";
+        import { Feature } from "./component/Feature/script.js";
+        
+
+        
+        Navigation.render("#sec1", "./data/navigation.json");
+        Hero2.render("#sec2", "./data/hero 2.json");
+        Feature.render("#sec3", "./data/feature.json");
+        Content.render("#sec2", "./data/content.json");
+        Showcase.render("#sec2", "./data/showcase.json");
+        Form.render("#sec2", "./data/form.json");
+        Team.render("#sec2", "./data/team.json");
+        Footer.render("#sec3", "./data/footer.json");
+        
+
+        
+    </script>
+    
+  </body>
+</html>

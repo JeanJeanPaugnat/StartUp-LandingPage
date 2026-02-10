@@ -1,0 +1,26 @@
+[
+    {   
+        "title": "Our Crew",
+        "text": "Samples will show you the feeling on how to play around using the components in the website building process.",
+        "bouton": "View Our Team",
+        "background": "../../assets/Team/background.png",
+
+        "cards":[
+            {    
+                "imgProfil": "../../assets/Team/picture profile/profil-Samantha.jpg",
+                "svgIcon": "../../assets/Team/social/Socials-Samantha.svg",
+                "nameProfil": "Samantha Gimson"
+            },
+            {    
+                "imgProfil": "../../assets/Team/picture profile/profil-Evan.jpg",
+                "svgIcon": "../../assets/Team/social/Socials-Evan.svg",
+                "nameProfil": "Evan Barrington"
+            },
+            {    
+                "imgProfil": "../../assets/Team/picture profile/profil-Brian.jpg",
+                "svgIcon": "../../assets/Team/social/Socials-Brian.svg",
+                "nameProfil": "Brian Oakman"
+            }
+        ]
+    }
+]
